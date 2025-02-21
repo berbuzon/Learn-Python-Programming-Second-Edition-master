@@ -135,12 +135,12 @@ f.denominator
 # decimal
 from decimal import Decimal as D  # rename for brevity
 D(3.14)  # pi, from float, so approximation issues
-Decimal('3.140000000000000124344978758017532527446746826171875')
+# Decimal('3.140000000000000124344978758017532527446746826171875')
 D('3.14')  # pi, from a string, so no approximation issues
-Decimal('3.14')
+# Decimal('3.14')
 D(0.1) * D(3) - D(0.3)  # from float, we still have the issue
-Decimal('2.775557561565156540423631668E-17')
+# Decimal('2.775557561565156540423631668E-17')
 D('0.1') * D(3) - D('0.3')  # from string, all perfect
-Decimal('0.0')
+# Decimal('0.0')
 D('1.4').as_integer_ratio()  # 7/5 = 1.4 (isn't this cool?!)
 (7, 5)
