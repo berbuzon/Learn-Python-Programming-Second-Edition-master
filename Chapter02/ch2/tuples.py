@@ -5,7 +5,9 @@ t = ()  # empty tuple
 print(type(t))
 
 one_element_tuple = (42, )  # you need the comma!
+print (type (one_element_tuple))
 three_elements_tuple = (1, 3, 5)  # braces are optional here
+print(three_elements_tuple)
 a, b, c = 1, 2, 3  # tuple for multiple assignment
 print(a, b, c)  # implicit tuple to print with one instruction
 
