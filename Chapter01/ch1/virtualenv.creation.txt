@@ -1,0 +1,16 @@
+
+
+
+Creo un entorno virtual
+python -m venv venv
+
+Lo activo
+.\venv\Scripts\activate o .\activate
+
+Instalo x librerias con pip install xxx
+
+Creo el archivo requirements
+pip freeze > requirements.txt
+
+Instalo las librerias que estén en requirements
+pip install -r requirements.txt
