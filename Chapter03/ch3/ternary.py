@@ -10,7 +10,3 @@ print(order_total, discount)
 # ternary operator
 discount = 25 if order_total > 100 else 0
 print(order_total, discount)
-<<<<<<< HEAD
-=======
-
->>>>>>> e79eee5d791c9eb94aaaa3df35dc2c62331731d4
