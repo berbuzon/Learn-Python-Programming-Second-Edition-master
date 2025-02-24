@@ -4,3 +4,4 @@ nationalities = ['Poland', 'India', 'South Africa', 'England']
 for data in zip(people, ages, nationalities):
     person, age, nationality = data
     print(person, age, nationality)
+    
