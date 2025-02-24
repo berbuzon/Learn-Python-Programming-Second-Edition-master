@@ -9,3 +9,7 @@ else:
     tax_coefficient = 0.45  #4
 
 print('I will pay:', income * tax_coefficient, 'in taxes')
+<<<<<<< HEAD
+=======
+
+>>>>>>> e79eee5d791c9eb94aaaa3df35dc2c62331731d4

@@ -14,3 +14,7 @@ while n > 0:
     n //= 2  # we divide n by 2
 
 print(remainders)
+<<<<<<< HEAD
+=======
+
+>>>>>>> e79eee5d791c9eb94aaaa3df35dc2c62331731d4
