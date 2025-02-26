@@ -1,19 +1,26 @@
-# primos=[]
-# limite=100
-
-
-# for n in range(2,limite+1):
-#     flag=True
-#     for divisor in range(2,n):
+# primes = []  # this will contain the primes in the end
+# upto = 100  # the limit, inclusive
+# for n in range(2, upto + 1):
+#     is_prime = True  # flag, new at each iteration of outer for
+#     for divisor in range(2, n):
 #         if n % divisor == 0:
-#             flag=False
+#             is_prime = False
 #             break
-#     if flag:
-#         primos.append(n)
-# print(primos)
+#     if is_prime:  # check on flag
+#         primes.append(n)
 
-n=10
+# print(primes)
 
-for divisor in range(2,n):
-    if n % divisor == 0:
-        print(divisor)
+primes=[]
+upto=100
+
+for n in range(2,upto+1):
+    for divisor in range(2,n):
+        if  n % divisor==0:
+            break
+    else:
+        primes.append(n)
+
+print(primes)
+
+
