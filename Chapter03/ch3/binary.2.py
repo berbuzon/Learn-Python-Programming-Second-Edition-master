@@ -5,4 +5,3 @@ while n > 0:
     remainders.insert(0, remainder)
 
 print(remainders)
-

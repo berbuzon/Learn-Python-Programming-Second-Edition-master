@@ -1,6 +1,4 @@
 # bytearray.py
-
-
 bytearray()  # empty bytearray object
 bytearray(b'')
 bytearray(10)  # zero-filled instance with given length
@@ -15,4 +13,4 @@ True
 name.upper()
 bytearray(b'LINA')
 name.count(b'L')
-1
+

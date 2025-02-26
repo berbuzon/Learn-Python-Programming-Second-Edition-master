@@ -1,2 +1,4 @@
 from math import factorial
-print(factorial(5)) 
+factorial(5)
+print(factorial(5))
+# 120

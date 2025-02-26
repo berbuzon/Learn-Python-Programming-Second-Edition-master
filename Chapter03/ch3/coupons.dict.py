@@ -17,3 +17,5 @@ for customer in customers:
 
 for customer in customers:
     print(customer['id'], customer['total'], customer['discount'])
+    
+    
